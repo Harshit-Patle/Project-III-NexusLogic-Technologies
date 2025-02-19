@@ -81,7 +81,8 @@ Ensure you have the following installed:
 
 ## 🌐 Live Demo
 Check out the live demo of the app:
-🔹 **[Live News App](https://your-live-demo-url.com)**
+🔹 **[Live News App](https://project-iii-nexus-logic-technologies.vercel.app/)**
+Not able to fetch data because of API_KEY limitation
 
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps to contribute:
