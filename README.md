@@ -34,24 +34,21 @@ Ensure you have the following installed:
 ### Installation Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/news-app.git
+   git clone https://github.com/Harshit-Patle/Project-III-NexusLogic-Technologies.git
    ```
-2. 
-   ```sh
-
-3. Install dependencies:
+2. Install dependencies:
    ```sh
    npm install  # or yarn install
    ```
-4. Create a `.env` file in the root directory and add your NewsAPI key:
+3. Create a `.env` file in the root directory and add your NewsAPI key:
    ```env
    VITE_NEWS_API_KEY=your_newsapi_key_here
    ```
-5. Start the development server:
+4. Start the development server:
    ```sh
    npm run dev  # or yarn dev
    ```
-6. Open your browser and navigate to:
+5. Open your browser and navigate to:
    ```sh
    http://localhost:5173
    ```
@@ -96,7 +93,7 @@ Contributions are welcome! Follow these steps to contribute:
 2. **Clone the Forked Repository**:
    - Clone the repository to your local machine using:
      ```sh
-     git clone https://github.com/your-username/news-app.git
+     git clone https://github.com/Harshit-Patle/Project-III-NexusLogic-Technologies.git
      ```
 
 3. **Create a New Branch**:
