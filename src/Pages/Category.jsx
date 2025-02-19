@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NewsCard from '../Components/NewsCard';
 
-const API_KEY = "4c0eb3a1a11e4535b33e1042e6882169"; // Replace with your actual API key
+const API_KEY = import.meta.env.VITE_NEWS_API_KEY; 
 const CATEGORIES = ["business", "entertainment", "general", "health", "science", "sports", "technology"];
 
 function Category() {

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import NewsCard from '../Components/NewsCard';
 
-const API_KEY = "4c0eb3a1a11e4535b33e1042e6882169";
+const API_KEY = import.meta.env.VITE_NEWS_API_KEY;;
 
 function SearchNews() {
     const [searchParams, setSearchParams] = useSearchParams();

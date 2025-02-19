@@ -6,7 +6,7 @@ const BreakingNews = () => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const apiKey = '4c0eb3a1a11e4535b33e1042e6882169';
+  const apiKey = import.meta.env.VITE_NEWS_API_KEY;
   const url = `https://newsapi.org/v2/everything?q=breaking&sortBy=popularity&apiKey=${apiKey}`;
 
   useEffect(() => {
